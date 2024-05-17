@@ -1,0 +1,19 @@
+.logo {
+    color: white;
+    padding: 3px 15px;
+    font-weight:600;
+    border: 0.5px solid red;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.active-tab {
+    color:red;
+}
+ul li a {
+    color: black;
+}
+ul li a:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
