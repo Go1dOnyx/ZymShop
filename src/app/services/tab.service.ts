@@ -10,7 +10,7 @@ export class TabService {
     //We declared a private observable BehaviorSubject type that can store and share current active tab as a string value across other components.
     private activeTabSubject = new BehaviorSubject<string>('home');
 
-    //Now we declared an observable that other components can subscribe to, which is going emit new values.
+    //Now we declared an observable that other components can subscribe to, which is going to be used to help emit new values.
     activeTab$ = this.activeTabSubject.asObservable();
 
     //Update current active tab value
