@@ -19,3 +19,13 @@ ul li a:hover {
     color: lightcoral;
     cursor: pointer;
 }
+
+@media screen and (max-width: 991.20px ){
+    .collapse-hidden {
+        display: none;
+    }
+    .nav-link-center {
+        display: block;
+        justify-content: center;
+    }
+}
