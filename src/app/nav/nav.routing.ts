@@ -5,13 +5,15 @@ import { StoreComponent } from './store';
 import { VideoComponent } from './videos';
 import { AboutComponent } from './about';
 
+//list of possible routes for my navigation.
 const routes: Routes = [
-    {path: 'Home', component: HomeComponent},
-    {path: 'Store', component: StoreComponent},
-    {path: 'Video', component: VideoComponent},
-    {path: 'About', component: AboutComponent},
+    {path: 'home', component: HomeComponent},
+    {path: 'store', component: StoreComponent},
+    {path: 'video', component: VideoComponent},
+    {path: 'about', component: AboutComponent},
 
     //otherwise - error **
 ];
 
+//instantiating a Router class globally and storing possible routes through the forRoots method.
 export const navRoutes = RouterModule.forRoot(routes);
