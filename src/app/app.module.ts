@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { NavComponent } from './nav/nav.component';
+import { navRoutes } from './nav/nav.routing';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HomeComponent } from './nav/home';
@@ -24,7 +25,8 @@ import { AboutComponent } from './nav/about';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    navRoutes
   ],
   providers: [
     provideClientHydration()
