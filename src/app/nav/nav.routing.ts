@@ -7,9 +7,9 @@ import { AboutComponent } from './about';
 
 //list of possible routes for my navigation.
 const routes: Routes = [
-    {path: 'home', component: HomeComponent},
+    {path: '', component: HomeComponent},
     {path: 'store', component: StoreComponent},
-    {path: 'video', component: VideoComponent},
+    {path: 'videos', component: VideoComponent},
     {path: 'about', component: AboutComponent},
 
     //otherwise - error **
