@@ -7,10 +7,19 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { HomeComponent } from './nav/home';
+import { StoreComponent } from './nav/store';
+import { VideoComponent } from './nav/videos';
+import { AboutComponent } from './nav/about';
+
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    StoreComponent,
+    VideoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
