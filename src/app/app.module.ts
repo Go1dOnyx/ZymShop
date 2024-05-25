@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer';
 import { navRoutes } from './nav/nav.routing';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -20,7 +21,8 @@ import { AboutComponent } from './nav/about';
     HomeComponent,
     StoreComponent,
     VideoComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
