@@ -5,3 +5,7 @@
 div a {
     color: red;
 }
+
+.header-background {
+    background-image: url('/src/assets/img/home-header.jpg');
+}
