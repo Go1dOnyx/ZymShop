@@ -5,7 +5,39 @@
 div a {
     color: red;
 }
+.home-btn {
+    background-color: white;
+    color: crimson;
+}
+.home-btn:hover {
+    background-color: crimson;
+    border: 0.5px solid red;
+    color: white;
+    transform: scale(1.055);
+    transition: transform 180ms ease-in-out;
+}
+.header-img {
+    background-image: url('/assets/home-img2.jpg');
+    background-size: cover;
+}
 
-.header-background {
-    background-image: url('/src/assets/img/home-header.jpg');
+.titles {
+    background-image: url('/assets/titles.png');
+    background-size: cover;
+}
+h3 {
+    padding-left: 50px;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .header-img {
+        background-image: url('/assets/home-img-phone.jpg');
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 619px) {
+    span {
+        display: block;
+    }
 }
